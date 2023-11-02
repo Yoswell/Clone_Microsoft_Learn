@@ -1,0 +1,102 @@
+.container-fluid { padding: 0; background-color: transparent; padding-bottom: 10px; display: flex;}
+
+.menu-desplegate {
+    width: 310px;
+    height: 100vh;
+    background-color: #171717;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    z-index: 100;
+}
+
+.bienvenida {
+    width: 100%;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.267);   
+}
+
+.text-bienvenida {
+    color: #fff;
+    font-size: 0.8rem;
+    height: 10px;
+}
+
+.iniciar {
+    background-color: #75b6e7;
+    border: none;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0 10px;
+    width: auto;
+    height: 30px;
+}
+
+.link {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+    border: none;
+    background-color: #171717;
+    font-size: 0.9rem;
+    color: #d8d8d8;
+    padding: 12px 10px 12px 20px;
+    border-radius: 0 15px 15px 0;
+    font-weight: 600;
+}
+
+.cont-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 55px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.267);
+}
+
+.separate {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5px;
+}
+
+.separate .menu {
+    height: 100%;
+    width: 50px;
+    border-left: 1px solid rgba(255, 255, 255, 0.267);
+}
+
+.home {
+    font-size: 1rem;
+    margin: 0;
+    padding: 12px 10px;
+    height: 100%;
+    border-radius: 0;
+} .home-i {
+    padding-right: 5px;
+    font-size: 1rem;
+}
+
+.buscar {
+    width: auto;
+    height: 100%;
+    border-radius: 0;
+} .buscar-i {
+    font-size: 1rem;
+}
+
+.title {
+    color: #788192;
+    margin-left: 20px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+i { display: flex; align-items: center; font-size: 1.4rem; }

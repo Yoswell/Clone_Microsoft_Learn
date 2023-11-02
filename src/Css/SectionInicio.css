@@ -1,0 +1,129 @@
+.portada {
+    display: flex;
+    flex-direction: column;
+}
+
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 300px !important;
+    background-color: #091f2c;
+    box-shadow: #171717;
+}
+
+.seccion {
+    width: auto;
+    display: flex;
+    align-items: center;
+    color: #f0f0f0;
+    text-transform: uppercase;
+    height: 10px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-size: 0.9rem;
+}
+
+.seccion-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #091f2c;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-size: 0.9rem;
+} .seccion-link:hover {
+    text-decoration: underline;
+}
+
+.cont-inicio {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 43%;
+    padding: 0 40px;
+}
+
+.title-inicio {
+    display: flex;
+    align-items: center;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #f0f0f0;
+    padding-bottom: 10px;
+}
+
+.text-sm { color: #f0f0f0; }
+
+.buscador {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.search-inicio {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #171717;
+    padding: 0 10px 0 10px;
+    border-radius: 2px;
+    border: 1px solid #e0e0e0;
+}
+
+.input-inicio {
+    border-radius: 3px;
+    height: 100%;
+}
+
+.btn {
+    border-radius: 3px;
+    transition: 0s;
+}
+
+.btn-search {
+    display: flex;
+    align-items: center;
+    background-color: #75b6e7;
+    width: auto;
+    height: 40px;
+    border-radius: 3px;
+    margin: 0 8px;
+    font-weight: 900;
+}
+
+.examinar {
+    border: 1px solid #f0f0f0;
+    background-color: transparent;
+    height: 40px;
+    border-radius: 3px;
+    color: #f0f0f0;
+} .examinar:hover {
+    text-decoration: underline;
+}
+
+.btn:hover {
+    background-color: #35a5fa;
+}
+
+@media only screen and (max-width: 1800px) {
+    .cont-inicio { padding: 60px 20px; }
+}
+
+@media only screen and (max-width: 1300px) {
+    .cont-image { display: none; }
+    .cont-inicio { width: 100%; }
+    .buscador { width: 100%; }
+}
+
+@media only screen and (max-width: 600px) {
+    .title-inicio { font-size: 1.6rem; }
+}

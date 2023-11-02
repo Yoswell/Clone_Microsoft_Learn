@@ -1,0 +1,114 @@
+.preguntas {
+    display: none;
+    flex-direction: column;
+}
+
+.inicio-preguntas {
+    margin-top: 55px;
+    width: 100%;
+}
+
+.cont-datos {
+    padding-top: 10px;
+}
+
+.esp {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: auto;
+}
+
+.link-esp { padding: 0; height: 0; padding-bottom: 20px; }
+
+.cardsDatos {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 0 40px;
+    min-height: 110px;
+}
+
+.cardDatos {
+    background-color: #091f2c;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.cont-image-datos img { width: 80px; }
+
+.cont-datos-card {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.seccion-datos { margin: 10px 0; }
+
+.enlaces-datos {
+    color: #75b6e7;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.cardDatos:hover .enlaces-datos {
+    text-decoration: underline;
+}
+
+.cardProductos {
+    background-color: #091f2c;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+}
+
+.cardProductos:hover .enlaces-datos {
+    text-decoration: underline;
+}
+
+.cont-productos-card { padding: 80px 40px 30px 40px; }
+
+.productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.cont-image-productos {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.cont-image-productos img { width: 50px; }
+
+.text-sm-sm {
+    font-size: 0.9rem;
+    color: #f0f0f0;
+    margin: 0;
+    line-height: 17px;
+}
+
+.cont-info-productos {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1800px) {
+    .cardsDatos { padding: 0 20px; }
+    .cont-productos-card { padding: 80px 20px 30px 20px; }
+}
+
+@media only screen and (max-width: 1200px) {
+    .cardsDatos, .productos { grid-template-columns: 1fr 1fr; }
+}
+
+@media only screen and (max-width: 600px) {
+    .cardsDatos, .productos { grid-template-columns: 1fr; }
+}

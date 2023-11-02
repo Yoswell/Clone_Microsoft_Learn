@@ -1,0 +1,156 @@
+.aprendeHaciendo {
+    display: none;
+    flex-direction: column;
+}
+
+.cont-rutas {
+    width: 100%;
+    padding: 35px 20px;
+}
+
+.rutas {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+}
+
+.rutas-image { height: 100%; }
+.rutas-card { display: grid; border-radius: 6px; }
+
+.nombres-testi {
+    display: grid;
+    grid-template-rows: 1fr;
+    height: 100%;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.paddingT {
+    padding-top: 10px;
+} .paddingB {
+    padding-bottom: 10px;
+} .paddingT2 {
+    padding-top: 20px;
+} .paddingB2 {
+    padding-bottom: 20px;
+} .paddingT5 {
+    padding-top: 50px;
+} .paddingB5 {
+    padding-bottom: 50px;
+}
+
+.rutas-description, .rutas-link { font-size: 0.9rem; }
+
+@media only screen and (max-width: 1800px) {
+    .cont-rutas { padding: 20px 10px; }
+}
+
+@media only screen and (max-width: 950px) {
+    .rutas { grid-template-columns: 1fr 1fr; }
+}
+
+@media only screen and (max-width: 750px) {
+    .rutas { grid-template-columns: 1fr; }
+}
+
+.cont-cursos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 100px;
+}
+
+.cursos-card {
+    max-width: 500px;
+    border-radius: 3px;
+    border-top: 1px solid #3f3f3f;
+    border-right: 1px solid #3f3f3f;
+    border-bottom: 1px solid #3f3f3f;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 100%;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.clock {
+    padding-right: 5px;
+    font-size: 0.8rem;
+}
+
+.cursos-title {
+    width: 100%;
+    font-size: 1rem;
+}
+
+.cont-cursos-link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cursos-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.seccion-rutas { height: auto; }
+.cursos-title-inicio { text-align: center; }
+
+.tiempo-y-herramienta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
+}
+
+.info-cursos {
+    margin: 0;
+    padding-right: 10px;
+}
+
+.svgLogo { width: 50px; }
+
+.sum { 
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-end; 
+    height: 50px;
+    border-top: 1px solid #3f3f3f;
+}
+
+.sumar-curso {
+    color: #f0f0f0;
+    font-size: 0.9rem;
+    border: none;
+    padding: 5px 10px;
+    background-color: #091f2c;
+} .sumar-curso:hover { background-color: #0c2736; }
+
+@media only screen and (max-width: 1150px) {
+    .cont-cursos {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .cont-cursos {
+        width: 100%;
+        display: flex;
+        align-items: stretch;
+        flex-direction: column;
+    }
+    
+    .cursos-card {
+        max-width: none;
+        width: 100%;
+    }
+}
